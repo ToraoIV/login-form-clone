@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1bbc9d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.section::before {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 270px;
+    background-color: #169b82;
+    top: 0;
+    left: 0;
+    border-radius: 5px 5px 0px 0;
+}
+
+h1 {
+    position: relative;
+    top: -10px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    color: #169b82;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    background-color: #169b82;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+}
+
+.password {
+    display: flex;
+    margin-top: 10px;
+}
+
+.mail {
+    display: flex;
+}
+
+.bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px 0 0 4px;
+    color: white;
+}
+
+.forgot {
+    color: #169b82;
+    padding: 10px 100px 10px 0px;
+}
+
+button {
+    background-color: #169b82;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 230px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1aaf94;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.inputs {
+    margin-top: 5px;
+}
